@@ -1,0 +1,58 @@
+/* pages/_user/_user.wxss */
+element.style 
+{
+background-image: url('https: //albedo-theme.com/wp-content/uploads/2016/08/pexels-photo-26180.jpg');
+}
+.bg-mask {
+background-color: #333;
+position: relative;
+}
+.bg-img {
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.padding-tb-xl {
+padding-top: 50rpx;
+padding-bottom: 50rpx;
+}
+view, text, scroll-view, swiper, button, form, input, textarea, label, navigator, image {
+box-sizing: border-box;
+display: block;
+}
+.bg-mask view, .bg-mask cover-view {
+z-index: 5;
+position: relative;
+}
+.text-white, .line-white, .lines-white {
+color: #fff;
+}
+.padding-xl {
+padding: 50rpx;
+
+}
+.text-xl {
+font-size: 36rpx;
+ color:#e54d42;
+}
+.padding-xs {
+padding: 10rpx;
+
+}
+.btn{
+
+  /* margin-top: 50rpx; */
+  padding: 10rpx;
+}
+.btn-1{
+  margin: 50rpx;
+  padding: 10rpx;
+}
+.btn-2{
+  margin: 50rpx;
+  padding: 10rpx;
+}
+
+
+
+

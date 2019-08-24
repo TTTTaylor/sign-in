@@ -1,0 +1,34 @@
+<cu-custom bgColor="bg-gradual-blue"isBack="{{true}}">
+ <view slot="backText">返回</view>
+  <view slot="content">活动创建</view>
+</cu-custom>
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="cu-form-group margin-top">
+    <view class="title">活动</view>
+    <input placeholder="请输入活动名称" class='radius' name='activity'></input>
+  </view>
+
+  <view class="cu-form-group margin-top" wx:hide="{{modalName==null}}">
+    <view class='title'>活动简介</view>
+    <textarea placeholder="请输入活动简介" name="summary" maxlength="-1" disabled="{{modalName!=null}}" ></textarea>
+  </view>
+  <view class="cu-form-group">
+    <view class='title'>活动发起人</view>
+    <input placeholder="请输入你的名字" class='radius' name="owner"></input>
+  </view>
+  <view class="cu-form-group">
+    <view class='title'>活动地点</view>
+    <input placeholder="请输入活动地点" class='radius' name='adress'></input>
+    <text class='icon-locationfill text-orange'></text>
+  </view>
+  <view class="cu-form-group">
+    <view class='title'>手机号码</view>
+    <input type="number" placeholder="请输入你的手机号码" class='radius' name='phone'></input>
+    <view class="cu-capsule radius">
+    </view>
+  </view>
+  <view class="btn-area">
+    <button form-type="submit"type="primary">提交</button>
+    <button form-type="reset" >重置</button>
+  </view>
+</form>

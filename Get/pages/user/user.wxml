@@ -1,0 +1,55 @@
+<cu-custom bgColor="bg-gradual-blue">
+  <view slot="content">我的</view>
+</cu-custom>
+
+<view class="margin-xl padding-xl bg-white radius shadow-lg">
+  <view class="flex justify-center">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" class='cu-btn round bg-green shadow'> 获取头像昵称 </button>
+    <block wx:else>
+      <view class='text-center'>
+        <view class="cu-avatar xl round solids" style="background-image:url({{userInfo.avatarUrl}})"></view>
+        <view class='user-info'>
+          <view class='item'>
+            <text>姓名：</text>
+            <text>{{ userInfo.nickName }}</text>
+          </view>
+          <view class='item'>
+            <text>城市：</text>
+            <text>{{ userInfo.city }}</text>
+          </view>
+        </view>
+
+      </view>
+    </block>
+  </view>
+</view>
+
+
+
+<view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg">
+
+
+  <view class="cu-item arrow">
+    <button class='cu-btn content' bindtap="write">
+      <text class='icon-writefill text-red'></text>
+      <text class='text-grey'>发布活动</text>
+    </button>
+  </view>
+
+  <view class="cu-item arrow">
+    <button class='cu-btn content' open-type bindtap='look'>
+      <text class='icon-calendar text-cyan'></text>
+      <text class='text-grey'>查看活动报名情况</text>
+    </button>
+  </view>
+
+  <view class="cu-item arrow">
+    <button class='cu-btn content' open-type bindtap='question'>
+      <text class=' icon-question text-red'></text>
+      <text class='text-grey'>帮助</text>
+    </button>
+  </view>
+</view>
+<view class="text-center margin-top">
+  <text class="text-grey text-xl">{{motto}}</text>
+</view>

@@ -1,0 +1,19 @@
+<!--pages/_user/_user.wxml-->
+<view class="bg-img bg-mask padding-tb-xl" style="background-image: url('https://albedo-theme.com/wp-content/uploads/2016/08/pexels-photo-26180.jpg')">
+  <view class='padding-xl text-white'>
+    <view class='padding-xs text-xl'>
+      新用户指引
+    </view>
+    <view class='padding-xs'>
+      如需使用校内服务,请点击绿色按钮,允许小程序获取当前微信账号绑定的手机号码,并通过
+      手机号码绑定校内身份
+    </view>
+  </view>
+</view>
+<view class="btn">
+ <button class="btn-1" type="primary" 
+ open-type="getPhoneNumber"
+ bindgetphonenumber="getPhoneNumber">
+ 绑定校内身份</button>
+ <button class="btn-2">普通用户</button>
+</view>

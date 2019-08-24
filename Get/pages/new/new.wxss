@@ -1,0 +1,4 @@
+
+.weui-btn.btn-green {
+    background-color: "#2ba245";
+}

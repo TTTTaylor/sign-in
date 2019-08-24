@@ -1,0 +1,8 @@
+.user-info .item {
+  padding-bottom: 25rpx;
+}
+
+.update-info {
+  margin: 0 auto;
+  width: 60%;
+}

@@ -1,0 +1,76 @@
+
+.margin-top {
+margin-top: 30rpx;
+}
+.cu-form-group {
+background: #fff;
+padding: 1rpx 30rpx;
+display: flex;
+align-items: center;
+min-height: 100rpx;
+justify-content: space-between;
+}
+.cu-form-group .title {
+text-align: justify;
+padding-right: 30rpx;
+font-size: 30rpx;
+position: relative;
+height: 60rpx;
+line-height: 60rpx;
+}
+view {
+display: block;
+}
+.cu-form-group input {
+flex: 1;
+font-size: 30rpx;
+color: #555;
+padding-right: 20rpx;
+}
+.radius {
+border-radius: 6rpx;
+}
+input {
+cursor: auto;
+display: block;
+height: 1.4rem;
+text-overflow: clip;
+overflow: hidden;
+white-space: nowrap;
+font-family: UICTFontTextStyleBody;
+min-height: 1.4rem;
+}
+
+
+.cu-form-group+.cu-form-group {
+border-top: 1rpx solid #eee;
+}
+.margin-top {
+margin-top: 30rpx;
+}
+.cu-form-group {
+background: #fff;
+padding: 1rpx 30rpx;
+display: flex;
+align-items: center;
+min-height: 100rpx;
+justify-content: space-between;
+
+}
+.image-1{
+  display: block;
+  position: relative;
+  width:38rpx;
+  height: 33rpx;
+}
+.btn-area{
+  margin-top: 30rpx;
+  
+}
+
+
+
+
+
+
+

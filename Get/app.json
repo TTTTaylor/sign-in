@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/new/new",
+    "pages/_user/_user",
+    "pages/loginer/loginer",
+    "pages/user/user",
+    "pages/manage/manage",
+    "pages/_form/_form",
+    "pages/search/search"
+  
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "我",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  },
+  "tabBar": {
+    "color": "#9b9b9b",
+    "selectedColor": "#338ffc",
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/new/new",
+        "text": "打卡",
+        "iconPath": "image/_Hold.png",
+        "selectedIconPath": "image/Hold.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "查找",
+        "iconPath": "image/_Search.png",
+        "selectedIconPath": "image/Search.png"
+      },
+      {
+        "pagePath": "pages/manage/manage",
+        "text": "管理",
+        "iconPath": "image/_Manage Data.png",
+        "selectedIconPath": "image/Manage Data.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "image/_User.png",
+        "selectedIconPath": "image/User.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
